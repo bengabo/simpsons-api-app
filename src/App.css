@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+img {
+  height: 300px;
+}
+
+button {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background: yellow;
+  color: #ee0f7f;
+}
+
+button:hover {
+  background: #ee0f7f;
+  color: yellow;
+}
+
+button:active {
+  transform: translateY(5px);
+}
