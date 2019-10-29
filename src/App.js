@@ -31,12 +31,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <button onClick={this.newCharacter}>click for a new character</button>
         {this.state.character ? (
           <SimpCharacter character={this.state.character} />
         ) : (
           <p>Nothing to see</p>
         )}
-        <button onClick={this.newCharacter}>click for a new character</button>
       </div>
     );
   }
